@@ -23,7 +23,8 @@ import com.sakkijha.hotel.services.GatewayService;
  * 
  */
 
-@RestController("/AvailableHotel")
+@RestController
+@RequestMapping("/AvailableHotel")
 public class AvailableHotelsController {
 
 	
