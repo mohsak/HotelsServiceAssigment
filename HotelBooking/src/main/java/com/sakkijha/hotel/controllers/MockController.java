@@ -3,6 +3,9 @@ package com.sakkijha.hotel.controllers;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
 import com.sakkijha.hotel.response.BestHotelServiceResponse;
 import com.sakkijha.hotel.response.CrazyHotelServiceResponse;
 
@@ -13,7 +16,8 @@ import com.sakkijha.hotel.response.CrazyHotelServiceResponse;
  * mock response of calling provider's API 
  * 
  */
-
+@RestController
+@RequestMapping("/MockData")
 public class MockController {
 	
 	public List<BestHotelServiceResponse> getBestHotels(){
