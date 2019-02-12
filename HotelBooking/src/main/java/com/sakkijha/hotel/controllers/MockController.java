@@ -20,6 +20,7 @@ import com.sakkijha.hotel.response.CrazyHotelServiceResponse;
 @RequestMapping("/MockData")
 public class MockController {
 	
+	@RequestMapping(value="/best")
 	public List<BestHotelServiceResponse> getBestHotels(){
 		List<BestHotelServiceResponse> hotels = new ArrayList<BestHotelServiceResponse>();
 		BestHotelServiceResponse hotel = null ;
@@ -34,6 +35,7 @@ public class MockController {
 		return hotels;
 	}
 	
+	@RequestMapping(value="/best")
 	public List<CrazyHotelServiceResponse> getCrazyHotels(){
 		List<CrazyHotelServiceResponse> hotels = new ArrayList<CrazyHotelServiceResponse>();
 		CrazyHotelServiceResponse hotel = null ;
