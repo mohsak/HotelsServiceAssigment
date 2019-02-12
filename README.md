@@ -1,7 +1,9 @@
 This project is a Maven project , It was developed using Spring MVC framework
 The main entry point is calling the service AvailableHotels by sending the mandatory request parameters :
 
-http://localhost:8080/HotelBooking/AvailableHotel/?fromDate=2019-01-01&toDate=2019-02-01&city=AUH&numberOfAdults=2
+http://Your_Web_Server_URL/HotelBooking/AvailableHotel/?fromDate=2019-01-01&toDate=2019-02-01&city=AUH&numberOfAdults=2
+
+ex. http://localhost:8080/HotelBooking/AvailableHotel/?fromDate=2019-01-01&toDate=2019-02-01&city=AUH&numberOfAdults=2
 
 
 The service will aggregate results from all hotels providers , currently there are two providers as per the requierments.
